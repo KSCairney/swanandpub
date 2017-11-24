@@ -1,3 +1,46 @@
+.nameBar {
+    margin-right: 20px;
+    display: inline;
+    opacity: 0.9;
+    background-color: transparent;
+    z-index: 100;
+}
+
+.topper {
+    height: 70px;
+    z-index: 100;
+    color: white;
+}
+
 h1 {
-    font-family: 'Homemade Apple', cursive;
+    font-family: 'IM Fell English', serif;
+    color: white;
+}
+
+h4 {
+    font-family: 'Ovo', serif;
+    color: white;
+}
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+
+.buttonIcon {
+    color: white;
+    font-size: 2em;
+    height: 10px;
+}
+
+li a {
+    color: white;
 }
