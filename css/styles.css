@@ -41,6 +41,20 @@ video {
     height: 10px;
 }
 
+li {
+    color: white;
+    font-family: 'Ovo', serif;
+    font-size: 0.7em;
+}
+
 li a {
     color: white;
+    font-family: 'Ovo', serif;
+    font-size: 0.7em;
+}
+
+li a:hover {
+    color: white;
+    font-family: 'Ovo', serif;
+    font-size: 0.8em;
 }
