@@ -58,3 +58,13 @@ li a:hover {
     font-family: 'Ovo', serif;
     font-size: 0.8em;
 }
+
+.infobox {
+    background-color: white;
+    opacity: 0.5;
+    color: black;
+}
+
+div {
+    border: 1px red solid;
+}
