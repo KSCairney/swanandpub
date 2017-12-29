@@ -63,3 +63,7 @@ li a:hover {
     background-color: white;
     color: black;
 }
+
+#brbut, #hrsbut {
+    cursor: pointer;
+}
