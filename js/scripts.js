@@ -4,7 +4,7 @@ $(document).ready(function(){
         $("#brs").hide();
         $("#hrs").toggle();
     });
-    $("brbut").click(function(){
+    $("#brbut").click(function(){
         $("#hrs").hide();
         $("#brs").toggle();
     });
