@@ -8,4 +8,8 @@ $(document).ready(function(){
         $("#hrs, #con").hide();
         $("#brs").toggle();
     });
+    $("#conbut").click(function(){
+        $("#hrs, #brs").hide();
+        $("#con").toggle();
+    });
 });
