@@ -1,11 +1,11 @@
 $(document).ready(function(){
-    $("#hrs, #brs").hide();
+    $("#hrs, #brs, #con").hide();
     $("#hrsbut").click(function(){
-        $("#brs").hide();
+        $("#brs, #con").hide();
         $("#hrs").toggle();
     });
     $("#brbut").click(function(){
-        $("#hrs").hide();
+        $("#hrs, #con").hide();
         $("#brs").toggle();
     });
 });
