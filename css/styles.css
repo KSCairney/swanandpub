@@ -62,8 +62,9 @@ li a:hover {
 .infobox {
     background-color: white;
     color: black;
+    border-radius: 5px;
 }
 
-#brbut, #hrsbut {
+#brbut, #hrsbut, #conbut{
     cursor: pointer;
 }
